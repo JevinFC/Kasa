@@ -1,0 +1,15 @@
+.tags-container {
+  display: flex;
+  gap: 15px;
+  .tags {
+    display: flex;
+    font-family: Montserrat;
+    color: white;
+    width: 160px;
+    background-color: #ff6060;
+    border-radius: 25px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+}

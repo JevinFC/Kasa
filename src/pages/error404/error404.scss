@@ -1,0 +1,27 @@
+.main-container404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .span404 {
+    color: #ff6060;
+    font-family: Montserrat;
+    font-size: 200px;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+  .p404 {
+    color: #ff6060;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-bottom: 142px;
+  }
+  .link404 {
+    font-family: Montserrat;
+    text-decoration: underline;
+    margin-bottom: 90px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.host {
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  gap: 10px; /* Ajoute un petit espace entre le texte et l'image */
+}
+
+.host-info {
+  display: flex;
+  flex-direction: column; /* Place le prénom au-dessus du nom */
+  text-align: right; /* Aligne le texte à droite */
+}
+
+.host-prenom {
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #ff6060;
+}
+
+.host-nom {
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #ff6060;
+}
+
+.host-img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}

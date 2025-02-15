@@ -1,0 +1,40 @@
+@import "/src/components/banner/banner.scss";
+.main-container {
+  margin-left: 30px;
+  margin-right: 30px;
+  .divImgAppart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .imgAppart {
+      width: $img-width;
+      height: 415px;
+      object-fit: cover;
+      border-radius: 25px;
+    }
+  }
+  .infodiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .titleAppart {
+    justify-content: flex-start;
+    font-family: Montserrat;
+    color: #ff6060;
+  }
+  .appart-location {
+    font-family: Montserrat;
+    font-size: 16px;
+  }
+  .tags-rating {
+    display: flex;
+    justify-content: space-between; /* Sépare les tags et le rating */
+    align-items: center; /* Aligne verticalement */
+  }
+
+  .collapse-div {
+    display: flex;
+    gap: 100px;
+  }
+}
