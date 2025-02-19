@@ -1,19 +1,18 @@
 import React from "react";
-import { FaStar } from "react-icons/fa";
 import "./rating.scss";
-
+import greyStar from "../../assets/greyStar.png";
+import pinkStar from "../../assets/pinkStar.png";
 function Rating({ score }) {
   const totalStars = 5;
-  const filledColor = "#ff6060";
-  const emptyColor = "#E3E3E3";
 
   return (
     <div className="rating">
       {[...Array(totalStars)].map((_, index) => (
-        <FaStar
+        <img
           key={index}
+          src={index < score ? pinkStar : greyStar}
+          alt={index < score ? "Étoile rose" : "Étoile grise"}
           className="star"
-          color={index < score ? filledColor : emptyColor}
         />
       ))}
     </div>
